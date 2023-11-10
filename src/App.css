@@ -1,0 +1,340 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.main{
+  width:100%;
+    /* height:1600px; */
+}
+
+#Welcome {
+  background-image: url('./Components/images/welcome.jpg');
+  background-size: cover;
+  background-position: center; /* Optional: Adjust the background position as needed */
+  /* Add other background properties if needed */
+  height: 100vh;
+  background-repeat: no-repeat;
+  
+/* Adjust the background size as needed */
+  /* Add other background properties if needed */
+}
+
+#h1w{
+  text-align: center;
+  padding-top: 30px;
+  font-size:80px;
+  color: rgb(89, 168, 179); 
+  mix-blend-mode:color-burn;
+}
+#h1w:hover {
+  color: rgb(179, 173, 89); /* Change the color on hover */
+  font-size:90px; /* Change the font size on hover */
+}
+
+#startb{
+    padding-top: 300px;
+    float:right;
+
+}
+
+#sb{
+  height: 70px;
+  width: 450px;
+  font-size: xx-large;
+}
+  
+#hedding{
+  background-color: rgb(103, 167, 197);
+  height: 120px;
+  font-size: x-large;
+}
+#hedding h1{
+  position: relative;
+  top: 15px;
+  left: 55px;
+  color:black;
+  font-size: xxx-large;
+  font-family: 'Lilita One', sans-serif;
+}
+#hedbutton{
+  position: relative;
+  /* top: -40px; */
+  /* left: 1330px; */
+  font-size:large;
+  font-weight: 650;
+  border: solid 0px;
+  margin-top: 20px;
+  background-color:rgb(103, 167, 197);
+  
+}
+#sidebar{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+  height:570px;
+  background-color:rgb(103, 167, 197) ;
+  border-radius: 20px;
+}
+#sidebar button{
+  width: 50px;
+  height:40px;
+  margin-top: 20px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  background-color:rgb(103, 167, 197);
+  border: solid 0px;
+  font-size: xx-large;
+  color: black;
+}
+
+#log{
+  border-radius: 20px;
+  position: relative;
+  /* top: -450px; */
+  /* left: 600px; */
+  height: 350px;
+  width: 400px;
+  background-color: rgb(103, 167, 197);
+}
+#log input{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
+  left: 95px;
+  border: solid 1px;
+  padding-left: 10px;
+}
+#log h1{
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  
+}
+#loginregister{
+  position: relative;
+  top: 50px;
+  left: 165px;
+  background-color: rgb(155, 173, 182);
+  border: solid 0px;
+  color: black;
+  font-size: large;
+  
+}
+
+
+div.hometext {
+  margin-top: 0px;
+  /* margin-bottom: 230px; */
+  padding-left: 50px;
+  background-image: url(./Components/images/pexels-mikhail-nilov-7988079.jpg);
+  background-size: cover;
+  text-align: center;
+  height: 90vh;
+}
+#home {
+  padding-bottom: 0px;
+}
+#input {
+  display: flex;
+  width: 50%;
+  padding-left: 10px;
+  padding-top: 250px;
+  text-align: center;
+}
+
+#btn {
+  padding-right: 600px;
+}
+
+#home h1{
+  font-size: xxx-large;
+}
+#home button{
+  height: 50px;
+  width: 120px;
+  background-color: rgb(52, 87, 202);
+  color: black;
+  border-radius: 12px;
+  border: solid 0px;
+  font-size: large;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+#home button:hover {
+  background-color: lawngreen;
+}
+
+#about{
+  font-family:'Times New Roman';
+  font-size:x-large;
+  position: relative;
+  /* top:-550px; */
+  /* left: 150px; */
+}
+#about2{
+  font-size:x-large;
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+#about2 p{
+  position: relative;
+  left: 30px;
+  /* top: -700px; */
+  font-size:x-large;
+  
+}
+#aboutregi{
+  height: 60px;
+  width: 200px;
+  background-color:rgb(103, 167, 197);
+  border: solid 0px;
+  border-radius: 25px;
+  position: relative;
+  /* top: -630px; */
+  left: 80px;
+  font-size: x-large;
+  color: black;
+}
+#homeimg{
+  height: 600px;
+  width: 600px;
+  position: relative;
+  /* top: -140px;
+  left: 450px; */
+}
+#hometext{
+  position: relative;
+  /* top: -580px;
+  left: -80px; */
+}
+#aboutimg{
+  height: 700px;
+  width: 900px;
+  position: relative;
+  /* left: 600px; */
+  /* top: -100px; */
+
+}
+#g1 input{
+  width: 130px;
+  position: relative;
+  left: 130px;
+  padding-left: 10px;
+}
+
+#register{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+#rig{
+  border-radius: 20px;
+  position: relative;
+  /* top: -450px; */
+  /* left: 600px; */
+  height: 600px;
+  width: 400px;
+  background-color: rgb(103, 167, 197);
+}
+#rig input{
+  width: 210px;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+  left: 95px;
+  border: solid 1px;
+  padding-left: 10px;
+}
+#rig h1{
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 35px;
+  
+}
+select{
+  padding:0px 10px 0px 10px;
+}
+#g2 input{
+  width: 130px;
+  position: relative;
+  left: 130px;
+  top: 80px;
+  padding-left: 10px;
+}
+
+#login{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+#registerlogin{
+  position: relative;
+  top: 110px;
+  left: 165px;
+  background-color: rgb(103, 167, 197);
+  border: solid 0px;
+  color: black;
+  font-size: large;
+}
+#hometwoimg{
+  height: 500px;
+  width: 500px;
+  position: relative;
+  top: 100px;
+  /* left: -150px; */
+}
+#homet{
+  position: relative;
+  top:400px;
+  /* left: 450px; */
+}
+#contimg{
+  width: 600px;
+  height: 600px;
+  position: relative;
+  /* top: -500px; */
+  /* left: 650px; */
+}
+#myDropdown{
+  width: 210px;
+  height: 40px;
+  position: relative;
+  left: 95px;
+  top: 50px;
+  border-radius: 10px;
+}
+
+#footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: black;
+  color: white;
+  height: 8vh;
+  text-align: center;
+}
+
+.card {
+  width: 200px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
